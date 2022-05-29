@@ -32,7 +32,7 @@
       elevate-on-scroll
     >
       <v-container class="d-flex justify-space-between align-center">
-        <h1>Josh.</h1>
+        <h1 class="secondary--text">Josh.</h1>
 
         <div class="d-flex align-center">
           <div :key="links.id" v-for="links in navLinks">
