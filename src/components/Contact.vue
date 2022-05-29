@@ -1,9 +1,9 @@
 <template>
   <v-container>
-    <v-row align="center">
-      <div class="text-h4 secondary--text">
-        <h4>Have a project or idea? Feel free to reach out</h4>
-      </div>
+    <div class="text-h4 secondary--text py-4 my-8">
+      <h4>Have a project or idea? Feel free to reach out</h4>
+    </div>
+    <v-row align="center" class="my-5">
       <v-col cols="12" md="6">
         <v-form
           ref="form"
