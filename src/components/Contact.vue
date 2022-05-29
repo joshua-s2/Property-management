@@ -35,7 +35,9 @@
             name="message"
           />
 
-          <v-btn @click.native="submit" :disabled="!valid">Submit</v-btn>
+          <v-btn @click.native="submit" :disabled="!valid" class=""
+            >Submit</v-btn
+          >
         </v-form></v-col
       >
       <v-col cols="12" md="6">

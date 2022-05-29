@@ -36,7 +36,8 @@
             </p>
             <v-btn
               small
-              class="secondary--text mb-3"
+              dark
+              class="mb-3"
               target="_blank"
               href="https://akodi-ui.vercel.app/"
               >View</v-btn
@@ -84,7 +85,8 @@
               target="_blank"
               href="https://www.kadatemy.com/"
               small
-              class="secondary--text mb-3"
+              dark
+              class="mb-3"
               >View</v-btn
             >
           </div>
@@ -128,7 +130,8 @@
               target="_blank"
               href="https://jovial-poitras-691ba0.netlify.app/"
               small
-              class="secondary--text mb-3"
+              dark
+              class="mb-3"
               >View</v-btn
             >
           </div>
