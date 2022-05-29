@@ -15,9 +15,6 @@
           router
           exact
         >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
@@ -111,39 +108,17 @@ export default {
 
       items: [
         {
-          icon: "mdi-home",
-          title: "Home",
-          to: "/",
-        },
-        {
-          icon: "mdi-information-outline",
           title: "About",
           to: "/#about",
         },
+
         {
-          icon: "mdi-flag-checkered",
-          title: "Goals",
-          to: "/#goal",
+          title: "Projects",
+          to: "/#projects",
         },
         {
-          icon: "mdi-human-male-board",
-          title: "Mentors",
-          to: "/#mentors",
-        },
-        {
-          icon: "mdi-comment-quote-outline",
-          title: "Testimonials",
-          to: "/#testimonials",
-        },
-        {
-          icon: "mdi-human-greeting-proximity",
-          title: "Contact us",
+          title: "Contact",
           to: "/#contact",
-        },
-        {
-          icon: "mdi-account-plus-outline",
-          title: "Get Started",
-          to: "/course",
         },
       ],
       miniVariant: false,
