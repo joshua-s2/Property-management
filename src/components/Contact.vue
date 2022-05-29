@@ -1,6 +1,9 @@
 <template>
   <v-container>
     <v-row align="center">
+      <div class="text-h4 secondary--text">
+        <h4>Have a project or idea? Feel free to reach out</h4>
+      </div>
       <v-col cols="12" md="6">
         <v-form
           ref="form"
@@ -35,12 +38,15 @@
             name="message"
           />
 
-          <v-btn @click.native="submit" :disabled="!valid" class=""
+          <v-btn
+            @click.native="submit"
+            :disabled="!valid"
+            class="secondary--text"
             >Submit</v-btn
           >
         </v-form></v-col
       >
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="6" class="my-4">
         <v-img src="/images/contact.svg"></v-img>
       </v-col>
     </v-row>

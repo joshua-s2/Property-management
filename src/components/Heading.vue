@@ -2,7 +2,7 @@
   <v-container>
     <v-row align="center">
       <v-col cols="12" md="5">
-        <div class="text-md-h2 text-h3 mb-md-6 pt-12 pt-md-0">
+        <div class="text-md-h2 text-h4 mb-md-6 pt-12 pt-md-0">
           <h3 class="secondary--text">I'm Joshua Odejide</h3>
         </div>
         <div class="text-h6 text-md-h5 mt-5 mb-4">
