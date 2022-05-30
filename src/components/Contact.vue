@@ -36,6 +36,8 @@
             v-model="formData.message"
             class="secondary--text"
             name="message"
+            label="Message"
+            placeholder="Your message"
           />
 
           <v-btn
