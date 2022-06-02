@@ -25,7 +25,7 @@
       >Late 2020- Got my another offer
       <div class="text-caption secondary--text">
         Got an offer to work in a Fintech Start up. I resumed in January 2021,
-        working in the Start up made me learn, practice and make use of Vue js
+        working in the Start up made me learn, practice and made use of Vue js
         the more
       </div>
     </v-timeline-item>
