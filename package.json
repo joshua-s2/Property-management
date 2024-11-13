@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "propertymanagement",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,8 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.3"
+    "@nuxtjs/vuetify": "^1.12.3",
+    "sass": "^1.80.6",
+    "sass-loader": "10.1.1"
   }
 }

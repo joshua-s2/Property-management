@@ -1,11 +1,11 @@
 export const primary = {
-  base: "#0a0a0a",
+  base: "#120122",
 };
 export const secondary = {
-  base: "#fcfcfc",
+  base: "#F2E4FF",
 };
 export const bodyText = {
-  base: "#3C3C3C",
+  base: "#29274C",
 };
 
 export const black30 = {

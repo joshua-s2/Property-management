@@ -1,24 +1,72 @@
 <template>
-  <v-container>
-    <v-row align="center">
-      <v-col cols="12" md="5">
-        <div class="text-md-h2 text-h4 mb-md-6 pt-12 pt-md-0">
-          <h3 class="secondary--text">I'm Joshua Odejide</h3>
-        </div>
-        <div class="text-h6 text-md-h5 mt-5 mb-4">
-          <h5 class="secondary--text">A Nigerian based Frontend engineer</h5>
-        </div>
-        <v-btn class="secondary--text text-capitalize my-5 py-5" href="/#about">
-          See more about me <v-icon>mdi-arrow-right</v-icon>
-        </v-btn>
-        <div class="text-body-1 my-5"></div>
-      </v-col>
-      <v-col cols="12" md="7" class="img__grid">
-        <v-img src="/images/work.svg" />
-      </v-col>
-    </v-row>
-  </v-container>
+  <section class="hero-section">
+    <v-container>
+      <v-row align="center" justify="center">
+        <v-col cols="12" md="10" lg="12">
+          <div class="text-center">
+            <!-- Main Heading -->
+            <h1
+              class="secondary--text header__title text-h3 text-sm-h2 text-md-h1 animate__animated animate__tada"
+            >
+              For Owners, Managers, and Tenants:
+              <br class="d-none d-md-block" />
+              One App for Effortless Property
+              <br class="d-none d-md-block" />
+              Management
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="secondary--text subtitle mt-6 mb-8 text-subtitle-1">
+              Get full control over listings, payments, and tenant communication
+              with an app that simplifies it all.
+            </p>
+
+            <!-- CTA Button -->
+            <v-btn
+              href="#waitlist"
+              color="secondary"
+              class="primary--text px-6"
+              height="48"
+              :ripple="false"
+              @click="trackCTAClick"
+            >
+              <span class="mr-2">Join the waitlist</span>
+              <v-icon>mdi-arrow-down</v-icon>
+            </v-btn>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
+  </section>
 </template>
+
 <script>
-export default {};
+export default {
+  name: "HeroSection",
+
+  methods: {
+    trackCTAClick() {
+      // Add analytics tracking here if needed
+      console.log("CTA clicked");
+    },
+  },
+};
 </script>
+
+<style lang="scss" scoped>
+.hero-section {
+  padding: 4rem 0;
+
+  .header__title {
+    margin-bottom: 1rem;
+    font-weight: 800;
+  }
+
+  .subtitle {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>
+

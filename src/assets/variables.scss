@@ -3,11 +3,11 @@
 // The variables you want to modify
 // $font-size-root: 20px;
 
-$body-font-family: "Poppins", sans-serif;
+$body-font-family: "DM Sans", sans-serif;
 .v-application {
-  font-family: "Poppins" !important;
+  font-family: "DM Sans" !important;
 }
-$heading-font-family: "Poppins", sans-serif;
+$heading-font-family: "DM Sans", sans-serif;
 $font-size-root: 16px;
 $border-radius-root: 0.25em !default;
 
@@ -123,78 +123,79 @@ $headings: (
     //59px
     "size": 3.6875rem,
     "weight": 800,
-    "line-height": 1.25em,
+    "line-height": 1.2em,
   ),
   "h2": (
     //48px
     "size": 3rem,
     "weight": 800,
-    "line-height": 1.25em,
+    "line-height": 1.3em,
   ),
   "h3": (
-    //36px
     "size": 2.25rem,
     "weight": 700,
-    "line-height": 1.25em,
+    "line-height": 1.4em,
+    "letter-spacing": normal,
+    "font-family": $heading-font-family,
   ),
   "h4": (
     //24px
     "size": 1.5rem,
     "weight": 700,
-    "line-height": 1.25em,
+    "line-height": 1.4em,
   ),
   "h5": (
     //20px
     "size": 1.25rem,
     "weight": 700,
-    "line-height": 1.25em,
+    "line-height": 1.5em,
   ),
   "h6": (
     //18px
     "size": 1.125rem,
     "weight": 700,
-    "line-height": 1.25em,
+    "line-height": 1.5em,
   ),
   "subtitle-1": (
-    // 16px
-    "size": 1rem,
+    // 18px
+    "size": 1.125rem,
     "weight": 600,
-    "line-height": 1.5em,
+    "line-height": 1.6em,
   ),
   "subtitle-2": (
     // 14px
     "size": 0.875rem,
     "weight": 600,
-    "line-height": 1.7em,
+    "line-height": 1.6em,
   ),
   "body-1": (
     // 16px
     "size": 1rem,
     "weight": 400,
-    "line-height": 1.5rem,
+    "line-height": 1.6em,
   ),
   "body-2": (
     // 14px
     "size": 0.875rem,
     "weight": 400,
-    "line-height": 1.7em,
+    "line-height": 1.6em,
   ),
   "button": (
     "size": 0.875rem,
     "weight": 600,
-    "line-height": 1.7em,
+    "line-height": 1.5em,
   ),
   "caption": (
     // 12px
     "size": 0.75rem,
     "weight": 400,
-    "line-height": 1.125rem,
+    "line-height": 1.5em,
   ),
   "overline": (
     //10px
     "size": 0.625rem,
     "weight": 400,
-    "line-height": 1.6rem,
+    "line-height": 1.5em,
   ),
 );
 

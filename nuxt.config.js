@@ -10,8 +10,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - portfolio",
-    title: "portfolio",
+    titleTemplate: "%s - propertymanagement",
+    title: "comingsoon",
     htmlAttrs: {
       lang: "en",
     },
@@ -21,7 +21,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    // link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -47,21 +47,22 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ["~/assets/variables.scss"],
+    treeShake: true,
     theme: {
-      dark: true,
+      dark: false,
       // options: {
       //   customProperties: true,
       // },
       themes: {
         dark: {
-          primary: primary,
-          secondary: secondary,
+          primary: secondary,
+          secondary: primary,
           tertiary1: secondary,
           tertiary2: primary,
         },
         light: {
-          primary: secondary,
-          secondary: primary,
+          primary: primary,
+          secondary: secondary,
           tertiary1: secondary,
           tertiary2: primary,
         },
