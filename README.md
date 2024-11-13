@@ -1,4 +1,4 @@
-# property-management
+# property management
 
 ## Build Setup
 
