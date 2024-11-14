@@ -66,6 +66,7 @@ export default {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 500;
   }
 }
 </style>
