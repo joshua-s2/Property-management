@@ -6,7 +6,7 @@
       onwheel=""
       width="100%"
       height="500%"
-      style="background: transparent; border: 1px solid #ccc"
+      :style="{ background: 'primary', border: 'none' }"
       sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
       loading="lazy"
     ></iframe>
