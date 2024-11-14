@@ -46,7 +46,8 @@
           </div>
         </div>
         <v-btn
-          class="secondary--text d-none d-sm-flex"
+   color="secondary"
+          class="primary--text d-none d-sm-flex"
           :ripple="true"
           href="#waitlist"
         >
