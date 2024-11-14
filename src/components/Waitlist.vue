@@ -6,7 +6,7 @@
       onwheel=""
       width="100%"
       height="500%"
-      :style="{ background: 'primary', border: 'none' }"
+      :style="{ background: currentBackground, border: 'none' }"
       sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
       loading="lazy"
     ></iframe>
@@ -17,6 +17,17 @@
   </v-container>
 </template>
 
+<script>
+export default {
+  computed: {
+    currentBackground() {
+      return this.$vuetify.theme.dark
+        ? "var(--v-secondary-base)"
+        : "var(--v-primary-base)";
+    },
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 .clickup_custom {
