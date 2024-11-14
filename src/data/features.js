@@ -3,7 +3,7 @@ export const featuresData = [
     icon: "mdi-home-search",
     title: "Property Listing",
     description:
-      "Showcase your properties with comprehensive details and images. Effortlessly manage multiple listings on a single platform, eliminating intermediaries.",
+      "Showcase your properties with comprehensive details and images. Connect directly with tenants, property owners/managers and manage multiple listings seamlessly on a single platform—no agents needed.",
   },
   {
     icon: "mdi-cash-register",

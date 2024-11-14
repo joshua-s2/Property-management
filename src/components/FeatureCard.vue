@@ -5,7 +5,7 @@
     height="100%"
   >
     <v-card-title class="d-flex align-center">
-      <v-icon color="primary" class="mr-md-4 mr-2 text-body-1">
+      <v-icon color="primary" class="mr-md-4 mr-2">
         {{ icon }}
       </v-icon>
       {{ title }}

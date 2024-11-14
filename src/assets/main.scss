@@ -6,8 +6,6 @@
   text-decoration: none;
 }
 @import "animate.css";
-@import "./component.scss";
-
 .v-btn,
 .v-btn__content {
   text-transform: none !important;
@@ -21,4 +19,19 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+.theme-button {
+  position: fixed !important;
+  left: 3.5rem;
+  top: 15%;
+  z-index: 2;
+  @media screen and (min-width: 700px) and (max-width: 780px) {
+    left: 40rem;
+  }
+  @media screen and (min-width: 340px) and (max-width: 560px) {
+    left: 20rem;
+  }
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    left: 15rem;
+  }
 }
