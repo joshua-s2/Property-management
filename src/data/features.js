@@ -27,7 +27,7 @@ export const featuresData = [
     icon: "mdi-bell-ring",
     title: "Automated Reminders",
     description:
-      "Configure automated alerts for rent due dates, lease renewals, maintenance schedules, and other critical property-related deadlines.",
+      "Stay on top of important deadlines with automated notifications for rent payments, lease renewals, maintenance tasks, new property listings, and other key property management dates.",
   },
   {
     icon: "mdi-account-group",

@@ -204,55 +204,6 @@ $rounded: (
   "lg": $border-radius-root * 4,
 );
 
-// Elevations
-
-@mixin rothko-elevation($color: var(--v-primary-base-rgb), $size: "medium") {
-  @if $size == "x-small" {
-    box-shadow: 0px 5px 20px rgba($color, $alpha: 0.35);
-  } @else if $size == "small" {
-    box-shadow: 0px 10px 20px rgba($color, $alpha: 0.25);
-  } @else if $size == "medium" {
-    box-shadow: 0px 16px 24px rgba($color, $alpha: 0.25);
-  } @else if $size == "large" {
-    box-shadow: 0px 24px 32px rgba($color, $alpha: 0.3);
-  } @else if $size == "x-large" {
-    box-shadow: 0px 32px 60px 5px rgba($color, $alpha: 0.35);
-  }
-}
-
-@mixin rothko-elevation-hover(
-  $color: var(--v-primary-base-rgb),
-  $size: "medium"
-) {
-  @if $size == "x-small" {
-    box-shadow: 0px 5px 10px rgba($color, $alpha: 0.35) !important;
-  } @else if $size == "small" {
-    box-shadow: 0px 5px 15px rgba($color, $alpha: 0.25) !important;
-  } @else if $size == "medium" {
-    box-shadow: 0px 12px 20px rgba($color, $alpha: 0.25) !important;
-  } @else if $size == "large" {
-    box-shadow: 0px 20px 24px rgba($color, $alpha: 0.3) !important;
-  } @else if $size == "x-large" {
-    box-shadow: 0px 26px 40px 5px rgba($color, $alpha: 0.35) !important;
-  }
-}
-@mixin rothko-elevation-focus(
-  $color: var(--v-primary-base-rgb),
-  $size: "medium"
-) {
-  @if $size == "x-small" {
-    box-shadow: 0px 2px 5px rgba($color, $alpha: 0.35) !important;
-  } @else if $size == "small" {
-    box-shadow: 0px 2px 8px rgba($color, $alpha: 0.25) !important;
-  } @else if $size == "medium" {
-    box-shadow: 0px 10px 10px rgba($color, $alpha: 0.25) !important;
-  } @else if $size == "large" {
-    box-shadow: 0px 10px 16px rgba($color, $alpha: 0.3) !important;
-  } @else if $size == "x-large" {
-    box-shadow: 0px 16px 20px 5px rgba($color, $alpha: 0.35) !important;
-  }
-}
-
 // global utils
 input:-webkit-autofill,
 input:-webkit-autofill:hover,

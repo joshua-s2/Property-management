@@ -6,7 +6,7 @@
           <div class="text-center">
             <!-- Main Heading -->
             <h1
-              class="secondary--text header__title text-h3 text-sm-h2 text-md-h1 animate__animated animate__tada"
+              class="secondary--text header__title text-h3 text-sm-h2 text-md-h1"
             >
               For Owners, Managers, and Tenants:
               <br class="d-none d-md-block" />
@@ -17,8 +17,8 @@
 
             <!-- Subtitle -->
             <p class="secondary--text subtitle mt-6 mb-8 text-subtitle-1">
-              Get full control over listings, payments, and tenant communication
-              with an app that simplifies it all.
+              Get full control over listings, onboarding, payments, and tenant
+              communication with an app that simplifies it all.
             </p>
 
             <!-- CTA Button -->
