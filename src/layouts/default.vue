@@ -114,7 +114,7 @@ export default {
 
         {
           linkText: "Join the Waitlist",
-          to: "#join-waitlist",
+          to: "#waitlist",
         },
       ],
       miniVariant: false,
